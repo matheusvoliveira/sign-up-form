@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn how to code</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- Section parte do descrição -->
+        <section class="flx txt">
+            <h1>Learn to code by <br>watching others</h1>
+            <p>See how experienced developers solve problemns in real-time.<br>
+                Watching scripted tutorials is great, but understanding<br>
+                how developers think is invaluable</p>
+            </p>
+        </section>
+        <!-- Section area do formulario do formulario -->
+        <section class="flx inp">
+            <p>Try it 7 days then $20/mo. thereafter</p>
+            <!-- div para inputs  -->
+            <div class="main inp" >
+                <input type="text" name="name" class="field name" placeholder="First Name" focus="er()" ><br>
+                <div id="res"></div>
+                <input type="text" name="lastName" class="field lastName" placeholder="Last Name" ><br>
+                <input type="email" name="email" class="field email" placeholder="Email Adress" ><br>
+                <input type="password" name="pass" class="field pass" placeholder="Password" ><br>
+                <input type="button" value="Claim your free Trial" class="field btn" name="btn" onclick="claim()">
+                <p id='term'>By clicking the button you are agreeing to our <span><b></b>Terms and Services</span></p>
+            </div>
+            
+            
+        </section>
+    </div>
+    <script>
+        function claim(){
+            window.location.reload(true)
+        }
+
+    </script>
+</body>
+</html>
